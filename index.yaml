@@ -6,6 +6,36 @@ entries:
         - kind: changed
           description: Upgraded `common` chart dependency to version 4.5.2
     apiVersion: v2
+    appVersion: v5.3.6
+    created: "2024-03-03T14:24:42.15636968Z"
+    dependencies:
+    - name: common
+      repository: https://library-charts.k8s-at-home.com
+      version: 4.5.2
+    description: A fork of Sonarr to work with movies à la Couchpotato
+    digest: 73210ef7815b4b7a27a42354bc4e0afce39b8c71b6db49a4e54c71e521e05541
+    home: https://github.com/k8s-at-home/charts/tree/master/charts/stable/radarr
+    icon: https://github.com/Radarr/Radarr/blob/aphrodite/Logo/512.png?raw=true
+    keywords:
+    - radarr
+    - torrent
+    - usenet
+    kubeVersion: '>=1.16.0-0'
+    maintainers:
+    - email: jeff@billimek.com
+      name: billimek
+    name: radarr
+    sources:
+    - https://github.com/Radarr/Radarr
+    - https://github.com/k8s-at-home/container-images
+    urls:
+    - https://github.com/Netanel-M/charts/releases/download/radarr-17.0.1/radarr-17.0.1.tgz
+    version: 17.0.1
+  - annotations:
+      artifacthub.io/changes: |-
+        - kind: changed
+          description: Upgraded `common` chart dependency to version 4.5.2
+    apiVersion: v2
     appVersion: v5.3
     created: "2024-03-03T14:18:59.181454027Z"
     dependencies:
@@ -62,4 +92,4 @@ entries:
     urls:
     - https://github.com/Netanel-M/charts/releases/download/sonarr-16.3.2/sonarr-16.3.2.tgz
     version: 16.3.2
-generated: "2024-03-03T14:18:59.297374658Z"
+generated: "2024-03-03T14:24:42.156384378Z"
