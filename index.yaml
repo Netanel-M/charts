@@ -1,0 +1,65 @@
+apiVersion: v1
+entries:
+  radarr:
+  - annotations:
+      artifacthub.io/changes: |-
+        - kind: changed
+          description: Upgraded `common` chart dependency to version 4.5.2
+    apiVersion: v2
+    appVersion: v5.3
+    created: "2024-03-03T14:18:59.181454027Z"
+    dependencies:
+    - name: common
+      repository: https://library-charts.k8s-at-home.com
+      version: 4.5.2
+    description: A fork of Sonarr to work with movies à la Couchpotato
+    digest: 04379975fe7c489543a009fdaf080214d842c32f86223cf9c9108e8c08f2a95c
+    home: https://github.com/k8s-at-home/charts/tree/master/charts/stable/radarr
+    icon: https://github.com/Radarr/Radarr/blob/aphrodite/Logo/512.png?raw=true
+    keywords:
+    - radarr
+    - torrent
+    - usenet
+    kubeVersion: '>=1.16.0-0'
+    maintainers:
+    - email: jeff@billimek.com
+      name: billimek
+    name: radarr
+    sources:
+    - https://github.com/Radarr/Radarr
+    - https://github.com/k8s-at-home/container-images
+    urls:
+    - https://github.com/Netanel-M/charts/releases/download/radarr-17.0.0/radarr-17.0.0.tgz
+    version: 17.0.0
+  sonarr:
+  - annotations:
+      artifacthub.io/changes: |-
+        - kind: changed
+          description: Upgraded `common` chart dependency to version 4.5.2
+    apiVersion: v2
+    appVersion: v3.0.8.1507
+    created: "2024-03-03T14:18:59.297366613Z"
+    dependencies:
+    - name: common
+      repository: https://library-charts.k8s-at-home.com
+      version: 4.5.2
+    description: Smart PVR for newsgroup and bittorrent users
+    digest: 2efe3efb4f9b1b6fa60c8e85a0120cab2499cd42180f11e4a069add97a984815
+    home: https://github.com/k8s-at-home/charts/tree/master/charts/stable/sonarr
+    icon: https://github.com/Sonarr/Sonarr/blob/phantom-develop/Logo/512.png?raw=true
+    keywords:
+    - sonarr
+    - torrent
+    - usenet
+    kubeVersion: '>=1.16.0-0'
+    maintainers:
+    - email: jeff@billimek.com
+      name: billimek
+    name: sonarr
+    sources:
+    - https://github.com/Sonarr/Sonarr
+    - https://github.com/k8s-at-home/container-images
+    urls:
+    - https://github.com/Netanel-M/charts/releases/download/sonarr-16.3.2/sonarr-16.3.2.tgz
+    version: 16.3.2
+generated: "2024-03-03T14:18:59.297374658Z"
