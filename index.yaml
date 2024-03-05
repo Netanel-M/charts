@@ -1,5 +1,37 @@
 apiVersion: v1
 entries:
+  prowlarr:
+  - annotations:
+      artifacthub.io/changes: |-
+        - kind: changed
+          description: Upgraded `common` chart dependency to version 4.5.2
+    apiVersion: v2
+    appVersion: "1.13"
+    created: "2024-03-05T08:50:28.292482251Z"
+    dependencies:
+    - name: common
+      repository: https://netanel-m.github.io/library-charts
+      version: 4.5.2
+    description: Indexer manager/proxy built on the popular arr net base stack to
+      integrate with your various PVR apps.
+    digest: e99fa9d3a47c9cce5df1e582f7d39bb102b6a4b66b6f0f6c2ccad68b6f68a639
+    home: https://github.com/k8s-at-home/charts/tree/master/charts/stable/prowlarr
+    icon: https://raw.githubusercontent.com/Prowlarr/Prowlarr/develop/Logo/400.png
+    keywords:
+    - prowlarr
+    - torrent
+    - usenet
+    kubeVersion: '>=1.16.0-0'
+    maintainers:
+    - email: jeff@billimek.com
+      name: billimek
+    name: prowlarr
+    sources:
+    - https://github.com/Prowlarr/Prowlarr
+    - https://github.com/k8s-at-home/container-images
+    urls:
+    - https://github.com/Netanel-M/charts/releases/download/prowlarr-5.0.0/prowlarr-5.0.0.tgz
+    version: 5.0.0
   radarr:
   - annotations:
       artifacthub.io/changes: |-
@@ -152,4 +184,4 @@ entries:
     urls:
     - https://github.com/Netanel-M/charts/releases/download/sonarr-16.3.2/sonarr-16.3.2.tgz
     version: 16.3.2
-generated: "2024-03-04T17:11:54.931375861Z"
+generated: "2024-03-05T08:50:28.292495356Z"
