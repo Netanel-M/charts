@@ -1,5 +1,40 @@
 apiVersion: v1
 entries:
+  bazarr:
+  - annotations:
+      artifacthub.io/changes: |-
+        - kind: changed
+          description: Upgraded `common` chart dependency to version 4.5.2
+    apiVersion: v2
+    appVersion: 1.4.2
+    created: "2024-03-05T14:17:19.601548579Z"
+    dependencies:
+    - name: common
+      repository: https://netanel-m.github.io/library-charts
+      version: 4.5.2
+    description: Bazarr is a companion application to Sonarr and Radarr. It manages
+      and downloads subtitles based on your requirements
+    digest: 25fdef63eb98d7e7fb284d8027bc475633c4cd50e26d32ba5040029eadf58887
+    home: https://github.com/k8s-at-home/charts/tree/master/charts/stable/bazarr
+    icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/bazarr.png
+    keywords:
+    - bazarr
+    - radarr
+    - sonarr
+    - subtitles
+    - usenet
+    - torrent
+    kubeVersion: '>=1.16.0-0'
+    maintainers:
+    - email: noone@example.com
+      name: noone
+    name: bazarr
+    sources:
+    - https://github.com/morpheus65535/bazarr
+    - https://github.com/k8s-at-home/container-images
+    urls:
+    - https://github.com/Netanel-M/charts/releases/download/bazarr-11.0.0/bazarr-11.0.0.tgz
+    version: 11.0.0
   prowlarr:
   - annotations:
       artifacthub.io/changes: |-
@@ -184,4 +219,4 @@ entries:
     urls:
     - https://github.com/Netanel-M/charts/releases/download/sonarr-16.3.2/sonarr-16.3.2.tgz
     version: 16.3.2
-generated: "2024-03-05T08:50:28.292495356Z"
+generated: "2024-03-05T14:17:19.601570991Z"
