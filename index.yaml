@@ -158,6 +158,36 @@ entries:
     urls:
     - https://github.com/Netanel-M/charts/releases/download/radarr-17.0.0/radarr-17.0.0.tgz
     version: 17.0.0
+  sabnzbd:
+  - annotations:
+      artifacthub.io/changes: |-
+        - kind: changed
+          description: Upgraded `common` chart dependency to version 4.5.2
+    apiVersion: v2
+    appVersion: 4.2.3
+    created: "2024-03-30T15:30:48.531482329Z"
+    dependencies:
+    - name: common
+      repository: https://netanel-m.github.io/library-charts
+      version: 4.5.2
+    description: Free and easy binary newsreader
+    digest: 97e808203fcd081eaa90c2dff9ae9b5ea4530feafacc4385ed6caf20650fcb3a
+    home: https://github.com/k8s-at-home/charts/tree/master/charts/stable/sabnzbd
+    icon: https://avatars1.githubusercontent.com/u/960698?s=400&v=4
+    keywords:
+    - sabnzbd
+    - usenet
+    kubeVersion: '>=1.16.0-0'
+    maintainers:
+    - email: jeff@billimek.com
+      name: billimek
+    name: sabnzbd
+    sources:
+    - https://sabnzbd.org/
+    - https://github.com/k8s-at-home/container-images
+    urls:
+    - https://github.com/Netanel-M/charts/releases/download/sabnzbd-10.0.0/sabnzbd-10.0.0.tgz
+    version: 10.0.0
   sonarr:
   - annotations:
       artifacthub.io/changes: |-
@@ -219,4 +249,4 @@ entries:
     urls:
     - https://github.com/Netanel-M/charts/releases/download/sonarr-16.3.2/sonarr-16.3.2.tgz
     version: 16.3.2
-generated: "2024-03-05T14:17:19.601570991Z"
+generated: "2024-03-30T15:30:48.531501705Z"
