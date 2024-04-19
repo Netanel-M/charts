@@ -151,6 +151,40 @@ entries:
     urls:
     - https://github.com/Netanel-M/charts/releases/download/home-assistant-14.0.0/home-assistant-14.0.0.tgz
     version: 14.0.0
+  ombi:
+  - annotations:
+      artifacthub.io/changes: |-
+        - kind: changed
+          description: Upgraded `common` chart dependency to version 4.5.2
+    apiVersion: v2
+    appVersion: 4.43.5
+    created: "2024-04-19T14:52:24.537555133Z"
+    dependencies:
+    - name: common
+      repository: https://netanel-m.github.io/library-charts
+      version: 4.5.2
+    description: Want a Movie or TV Show on Plex or Emby? Use Ombi!
+    digest: 89d48ebfd031e6d8c8f2e8ae5f7f6afe76a5fb9fa3311dd15d1611b11ccdb4c5
+    home: https://github.com/k8s-at-home/charts/tree/master/charts/stable/ombi
+    icon: https://github.com/tidusjar/Ombi/blob/feature/v4/src/Ombi/wwwroot/images/ms-icon-310x310.png?raw=true
+    keywords:
+    - ombi
+    - plex
+    - emby
+    - sonarr
+    - radarr
+    - couchpotato
+    kubeVersion: '>=1.16.0-0'
+    maintainers:
+    - email: jeff@billimek.com
+      name: billimek
+    name: ombi
+    sources:
+    - https://github.com/tidusjar/Ombi
+    - https://hub.docker.com/r/linuxserver/ombi
+    urls:
+    - https://github.com/Netanel-M/charts/releases/download/ombi-12.0.0/ombi-12.0.0.tgz
+    version: 12.0.0
   prowlarr:
   - annotations:
       artifacthub.io/changes: |-
@@ -365,4 +399,4 @@ entries:
     urls:
     - https://github.com/Netanel-M/charts/releases/download/sonarr-16.3.2/sonarr-16.3.2.tgz
     version: 16.3.2
-generated: "2024-04-13T12:31:52.700374658Z"
+generated: "2024-04-19T14:52:24.537580571Z"
