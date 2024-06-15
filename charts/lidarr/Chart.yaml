@@ -1,9 +1,9 @@
 ---
 apiVersion: v2
-appVersion: "2.2"
+appVersion: 2.3.3
 description: Looks and smells like Sonarr but made for music
 name: lidarr
-version: 15.0.3
+version: 15.0.4
 kubeVersion: ">=1.16.0-0"
 keywords:
   - lidarr
