@@ -151,6 +151,37 @@ entries:
     urls:
     - https://github.com/Netanel-M/charts/releases/download/home-assistant-14.0.0/home-assistant-14.0.0.tgz
     version: 14.0.0
+  lidarr:
+  - annotations:
+      artifacthub.io/changes: |-
+        - kind: changed
+          description: Upgraded `common` chart dependency to version 4.5.2
+    apiVersion: v2
+    appVersion: "2.3"
+    created: "2024-06-15T07:19:10.837148312Z"
+    dependencies:
+    - name: common
+      repository: https://netanel-m.github.io/library-charts
+      version: 4.5.2
+    description: Looks and smells like Sonarr but made for music
+    digest: d06979d3fc5aa4dda9fa6be998c35f6e3ec97ae97f86a5f9a767554d41719156
+    home: https://github.com/k8s-at-home/charts/tree/master/charts/stable/lidarr
+    icon: https://github.com/lidarr/Lidarr/blob/develop/Logo/512.png?raw=true
+    keywords:
+    - lidarr
+    - torrent
+    - usenet
+    kubeVersion: '>=1.16.0-0'
+    maintainers:
+    - email: jeff@billimek.com
+      name: billimek
+    name: lidarr
+    sources:
+    - https://github.com/Lidarr/Lidarr
+    - https://github.com/k8s-at-home/container-images
+    urls:
+    - https://github.com/Netanel-M/charts/releases/download/lidarr-15.0.0/lidarr-15.0.0.tgz
+    version: 15.0.0
   ombi:
   - annotations:
       artifacthub.io/changes: |-
@@ -399,4 +430,4 @@ entries:
     urls:
     - https://github.com/Netanel-M/charts/releases/download/sonarr-16.3.2/sonarr-16.3.2.tgz
     version: 16.3.2
-generated: "2024-04-19T14:52:24.537580571Z"
+generated: "2024-06-15T07:19:10.83717922Z"
