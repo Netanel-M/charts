@@ -157,6 +157,36 @@ entries:
         - kind: changed
           description: Upgraded `common` chart dependency to version 4.5.2
     apiVersion: v2
+    appVersion: "2.2"
+    created: "2024-06-15T07:37:39.767827201Z"
+    dependencies:
+    - name: common
+      repository: https://netanel-m.github.io/library-charts
+      version: 4.5.2
+    description: Looks and smells like Sonarr but made for music
+    digest: cb6830da73cb26dd0a19bc407d38ad24578815852471e0c2fad1f3d5c68ad651
+    home: https://github.com/k8s-at-home/charts/tree/master/charts/stable/lidarr
+    icon: https://github.com/lidarr/Lidarr/blob/develop/Logo/512.png?raw=true
+    keywords:
+    - lidarr
+    - torrent
+    - usenet
+    kubeVersion: '>=1.16.0-0'
+    maintainers:
+    - email: jeff@billimek.com
+      name: billimek
+    name: lidarr
+    sources:
+    - https://github.com/Lidarr/Lidarr
+    - https://github.com/k8s-at-home/container-images
+    urls:
+    - https://github.com/Netanel-M/charts/releases/download/lidarr-15.0.3/lidarr-15.0.3.tgz
+    version: 15.0.3
+  - annotations:
+      artifacthub.io/changes: |-
+        - kind: changed
+          description: Upgraded `common` chart dependency to version 4.5.2
+    apiVersion: v2
     appVersion: "2.3"
     created: "2024-06-15T07:34:56.923705388Z"
     dependencies:
@@ -490,4 +520,4 @@ entries:
     urls:
     - https://github.com/Netanel-M/charts/releases/download/sonarr-16.3.2/sonarr-16.3.2.tgz
     version: 16.3.2
-generated: "2024-06-15T07:34:56.923739011Z"
+generated: "2024-06-15T07:37:39.767859301Z"
