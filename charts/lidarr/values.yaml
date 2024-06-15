@@ -9,7 +9,7 @@ image:
   # -- image repository
   repository: ghcr.io/onedr0p/lidarr
   # -- image tag
-  tag: 2.3
+  tag:
   # -- image pull policy
   pullPolicy: IfNotPresent
 
