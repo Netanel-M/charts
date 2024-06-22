@@ -336,6 +336,40 @@ entries:
     urls:
     - https://github.com/Netanel-M/charts/releases/download/ombi-12.0.0/ombi-12.0.0.tgz
     version: 12.0.0
+  overseerr:
+  - annotations:
+      artifacthub.io/changes: |-
+        - kind: changed
+          description: Upgraded `common` chart dependency to version 4.5.2
+    apiVersion: v2
+    appVersion: 1.26.1
+    created: "2024-06-22T21:19:28.679478994Z"
+    dependencies:
+    - name: common
+      repository: https://netanel-m.github.io/library-charts
+      version: 4.5.2
+    description: Overseerr is a free and open source software application for managing
+      requests for your media library. It integrates with your existing services such
+      as Sonarr, Radarr and Plex!
+    digest: a8276eced0271f717a3ce5f6c81e077bbed225711f30fd168b0a67b757d8f576
+    home: https://github.com/k8s-at-home/charts/tree/master/charts/stable/overseerr
+    icon: https://i.imgur.com/TMoEG7g.png
+    keywords:
+    - overseerr
+    - plex
+    - sonarr
+    - radarr
+    kubeVersion: '>=1.16.0-0'
+    maintainers:
+    - email: jeff@billimek.com
+      name: billimek
+    name: overseerr
+    sources:
+    - https://github.com/sct/overseerr
+    - https://hub.docker.com/r/sctx/overseerr
+    urls:
+    - https://github.com/Netanel-M/charts/releases/download/overseerr-5.4.2/overseerr-5.4.2.tgz
+    version: 5.4.2
   prowlarr:
   - annotations:
       artifacthub.io/changes: |-
@@ -550,4 +584,4 @@ entries:
     urls:
     - https://github.com/Netanel-M/charts/releases/download/sonarr-16.3.2/sonarr-16.3.2.tgz
     version: 16.3.2
-generated: "2024-06-15T07:40:26.42846518Z"
+generated: "2024-06-22T21:19:28.679499773Z"
