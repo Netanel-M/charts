@@ -584,4 +584,35 @@ entries:
     urls:
     - https://github.com/Netanel-M/charts/releases/download/sonarr-16.3.2/sonarr-16.3.2.tgz
     version: 16.3.2
-generated: "2024-06-22T21:19:28.679499773Z"
+  ubooquity:
+  - annotations:
+      artifacthub.io/changes: |-
+        - kind: changed
+          description: Upgraded `common` chart dependency to version 4.5.2
+    apiVersion: v2
+    appVersion: 2.1.2
+    created: "2024-07-12T17:15:04.871618089Z"
+    dependencies:
+    - name: common
+      repository: https://netanel-m.github.io/library-charts
+      version: 4.5.2
+    description: ubooquity is a web app providing a clean interface for browsing,
+      reading eBooks.
+    digest: 4519afe83cfb6ccb0662007e21c7825c0307c13d147c1e8dc2ee2e5077cf953d
+    home: https://github.com/k8s-at-home/charts/tree/master/charts/stable/calibre-web
+    icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/calibre-web-icon.png
+    keywords:
+    - calibre
+    - ebook
+    kubeVersion: '>=1.16.0-0'
+    maintainers:
+    - email: wojoinc@pm.me
+      name: wojoinc
+    name: ubooquity
+    sources:
+    - https://hub.docker.com/r/linuxserver/calibre-web/
+    - https://github.com/janeczku/calibre-web
+    urls:
+    - https://github.com/Netanel-M/charts/releases/download/ubooquity-1.0.0/ubooquity-1.0.0.tgz
+    version: 1.0.0
+generated: "2024-07-12T17:15:04.871653456Z"
