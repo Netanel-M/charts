@@ -302,6 +302,36 @@ entries:
     urls:
     - https://github.com/Netanel-M/charts/releases/download/lidarr-15.0.0/lidarr-15.0.0.tgz
     version: 15.0.0
+  nzbhydra:
+  - annotations:
+      artifacthub.io/changes: |-
+        - kind: changed
+          description: Upgraded `common` chart dependency to version 4.5.2
+    apiVersion: v2
+    appVersion: 7.2.3
+    created: "2024-07-13T12:20:21.677904066Z"
+    dependencies:
+    - name: common
+      repository: https://netanel-m.github.io/library-charts
+      version: 4.5.2
+    description: NZBHydra2
+    digest: 3c0b9aef305f7394a3a1408c8f5bf6657a8d52e2825a952a9f464a1d1130d5cf
+    home: https://github.com/k8s-at-home/charts/tree/master/charts/stable/calibre-web
+    icon: https://raw.githubusercontent.com/linuxserver/docker-templates/master/linuxserver.io/img/calibre-web-icon.png
+    keywords:
+    - nzb
+    - usernet
+    kubeVersion: '>=1.16.0-0'
+    maintainers:
+    - email: wojoinc@pm.me
+      name: wojoinc
+    name: nzbhydra
+    sources:
+    - https://hub.docker.com/r/linuxserver/calibre-web/
+    - https://github.com/janeczku/calibre-web
+    urls:
+    - https://github.com/Netanel-M/charts/releases/download/nzbhydra-1.0.0/nzbhydra-1.0.0.tgz
+    version: 1.0.0
   ombi:
   - annotations:
       artifacthub.io/changes: |-
@@ -615,4 +645,4 @@ entries:
     urls:
     - https://github.com/Netanel-M/charts/releases/download/ubooquity-1.0.0/ubooquity-1.0.0.tgz
     version: 1.0.0
-generated: "2024-07-12T17:15:04.871653456Z"
+generated: "2024-07-13T12:20:21.677933431Z"
