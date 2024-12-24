@@ -151,6 +151,36 @@ entries:
     urls:
     - https://github.com/Netanel-M/charts/releases/download/home-assistant-14.0.0/home-assistant-14.0.0.tgz
     version: 14.0.0
+  lazylibrarian:
+  - annotations:
+      artifacthub.io/changes: |-
+        - kind: changed
+          description: Upgraded `common` chart dependency to version 4.5.2
+    apiVersion: v2
+    appVersion: version-1152df82
+    created: "2024-12-24T11:10:44.212091998Z"
+    dependencies:
+    - name: common
+      repository: https://library-charts.k8s-at-home.com
+      version: 4.5.2
+    description: A Helm chart for deploying LazyLibrarian
+    digest: 2f33df3947d64282fc8468d208671cff13e778beb969651153042600c7c6e40c
+    home: https://github.com/k8s-at-home/charts/tree/master/charts/stable/lazylibrarian
+    icon: https://lazylibrarian.gitlab.io/logo.svg
+    keywords:
+    - lazylibrarian
+    - ebooks
+    kubeVersion: '>=1.16.0-0'
+    maintainers:
+    - email: jeff@billimek.com
+      name: billimek
+    name: lazylibrarian
+    sources:
+    - https://gitlab.com/LazyLibrarian/LazyLibrarian.git
+    - https://lazylibrarian.gitlab.io
+    urls:
+    - https://github.com/Netanel-M/charts/releases/download/lazylibrarian-9.0.0/lazylibrarian-9.0.0.tgz
+    version: 9.0.0
   lidarr:
   - annotations:
       artifacthub.io/changes: |-
@@ -367,6 +397,39 @@ entries:
     - https://github.com/Netanel-M/charts/releases/download/ombi-12.0.0/ombi-12.0.0.tgz
     version: 12.0.0
   overseerr:
+  - annotations:
+      artifacthub.io/changes: |-
+        - kind: changed
+          description: Upgraded `common` chart dependency to version 4.5.2
+    apiVersion: v2
+    appVersion: 1.33.2
+    created: "2024-12-24T11:10:44.331822702Z"
+    dependencies:
+    - name: common
+      repository: https://netanel-m.github.io/library-charts
+      version: 4.5.2
+    description: Overseerr is a free and open source software application for managing
+      requests for your media library. It integrates with your existing services such
+      as Sonarr, Radarr and Plex!
+    digest: ec41544246a2d946806deb1894791f6ca5024811e5f6eb60f1d85f3bf1f85122
+    home: https://github.com/k8s-at-home/charts/tree/master/charts/stable/overseerr
+    icon: https://i.imgur.com/TMoEG7g.png
+    keywords:
+    - overseerr
+    - plex
+    - sonarr
+    - radarr
+    kubeVersion: '>=1.16.0-0'
+    maintainers:
+    - email: jeff@billimek.com
+      name: billimek
+    name: overseerr
+    sources:
+    - https://github.com/sct/overseerr
+    - https://hub.docker.com/r/sctx/overseerr
+    urls:
+    - https://github.com/Netanel-M/charts/releases/download/overseerr-6.0.0/overseerr-6.0.0.tgz
+    version: 6.0.0
   - annotations:
       artifacthub.io/changes: |-
         - kind: changed
@@ -645,4 +708,4 @@ entries:
     urls:
     - https://github.com/Netanel-M/charts/releases/download/ubooquity-1.0.0/ubooquity-1.0.0.tgz
     version: 1.0.0
-generated: "2024-07-13T12:20:21.677933431Z"
+generated: "2024-12-24T11:10:44.33185381Z"
