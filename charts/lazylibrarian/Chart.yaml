@@ -3,7 +3,7 @@ apiVersion: v2
 appVersion: version-1152df82
 name: lazylibrarian
 description: A Helm chart for deploying LazyLibrarian
-version: 7.4.2
+version: 9.0.0
 kubeVersion: ">=1.16.0-0"
 keywords:
   - lazylibrarian
